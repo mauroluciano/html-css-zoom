@@ -87,10 +87,25 @@ main {
 
 footer {
   background-color: #222222;
-  height: 100px;
+  height: 80px;
   color: white;
 }
 
 footer sub {
   display: block;
+}
+
+section {
+  width: 80px;
+  text-align: center;
+  font-size: 15px;
+  align-self: center;
+}
+
+.end {
+  background-color: #727171;
+  height: 60px;
+  color: red;
+  padding: 5px;
+  margin: 0;
 }
