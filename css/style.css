@@ -1,98 +1,96 @@
 /*GENERICS*/
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 
-.container{
-    width: 1180px;
-    margin: auto auto;
-    justify-content: center;
+.container {
+  width: 100vw;
+  margin: auto auto;
+  justify-content: center;
 }
 
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
 
-header{
-    width: 100%;
-    position: relative;
-    height: 50px;
+header {
+  width: 100%;
+  position: relative;
+  height: 50px;
 }
 
-.debug{
-    border: 2px dashed red;
-    padding: 5px;
+.debug {
+  border: 2px dashed red;
+  padding: 5px;
 }
 
-.wrap{
-    flex-wrap: wrap;
+.wrap {
+  flex-wrap: wrap;
 }
 
-.between{
-    justify-content: space-between;
+.between {
+  justify-content: space-between;
 }
-
 
 /* header */
 
 .speaker {
-    position: absolute;
-    top:0;
-    right: 40px;
-    background-color: #4a4a4a;
-    border-radius: 5px;
-    font-size: 10px;
-    padding: 3px;
-    color: #fff;
-    width: 80px;
-    text-align: center;
-    margin: 5px auto;
-
+  position: absolute;
+  top: 0;
+  right: 40px;
+  background-color: #4a4a4a;
+  border-radius: 5px;
+  font-size: 10px;
+  padding: 3px;
+  color: #fff;
+  width: 80px;
+  text-align: center;
+  margin: 5px auto;
 }
 
 .zoom {
-    position: absolute;
-    top:0;
-    right: 0;
-    color: #fff;
-    background-color: #4a4a4a;
-    border-radius: 5px;
-    font-size: 10px;
-    padding: 3px;
-    margin: 5px auto;
-
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  background-color: #4a4a4a;
+  border-radius: 5px;
+  font-size: 10px;
+  padding: 3px;
+  margin: 5px auto;
 }
-
 
 /* main */
 
 main {
-    width: 100%;
-    height: 500px;
+  width: 100%;
+  height: 500px;
 }
 
-.box{
-    width: calc(100% / 7 - 10px);
-    margin:5px;
-    height: 85px;
-    background-image: url(../img/segnaposto.jpg); 
-    background-repeat: no-repeat;   
-    position: relative;
+.box {
+  width: 185px;
+  margin: 5px;
+  height: 85px;
+  background-image: url(../img/segnaposto.jpg);
+  background-repeat: no-repeat;
+  position: relative;
 }
-
 
 /* footer */
 
-footer{
-    background-color: #222222;
-    height: 100px;
+footer {
+  background-color: #222222;
+  height: 100px;
+  color: white;
 }
 
-
+footer sub {
+  display: block;
+}
